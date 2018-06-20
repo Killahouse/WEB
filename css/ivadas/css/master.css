@@ -1,0 +1,10 @@
+.trecias{
+  background-color: green;
+}
+#paskutinis{
+  background-color: green;
+}
+input[required]{
+  background-color: red;
+  height: 30px;
+}

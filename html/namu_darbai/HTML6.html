@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form name="calculator">
+    <input type="ivedimas" name="langas" value="">
+    <br>
+    <br>
+    <button type="button" value="7" onclick="calculator.langas.value+='7'">7</button>
+    <button type="button" value="8" onclick="calculator.langas.value+='8'">8</button>
+    <button type="button" value="9" onclick="calculator.langas.value+='9'">9</button>
+    <br>
+    <br>
+    <button type="button" value="4" onclick="calculator.langas.value+='4'">4</button>
+    <button type="button" value="5" onclick="calculator.langas.value+='5'">5</button>
+    <button type="button" value="6" onclick="calculator.langas.value+='6'">6</button>
+    <br>
+    <br>
+    <button type="button" value="1" onclick="calculator.langas.value+='1'">1</button>
+    <button type="button" value="2" onclick="calculator.langas.value+='2'">2</button>
+    <button type="button" value="3" onclick="calculator.langas.value+='3'">3</button>
+    <br>
+    <br>
+    <button type="button" value="+" onclick="calculator.langas.value+='+'">+</button>
+    <button type="button" value="-" onclick="calculator.langas.value+='-'">-</button>
+    <button type="button" value="/" onclick="calculator.langas.value+='/'">/</button>
+    <br>
+    <br>
+    <button type="button" value="*" onclick="calculator.langas.value+='*'">*</button>
+    <button type="button" value="=" onClick="calculator.langas.value=eval(calculator.langas.value)">=</button>
+    <button type="button" value="reset" onclick="calculator.langas.value=''">CE</button>
+      </form>
+  </body>
+</html>
